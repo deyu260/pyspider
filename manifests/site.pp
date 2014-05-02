@@ -11,5 +11,5 @@ $package_list = [
 ]
 
 package{$package_list:
-	ensuer => present
+	ensure => present
 }
