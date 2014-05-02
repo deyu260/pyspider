@@ -64,7 +64,7 @@ def run_webui():
     app.config['projectdb'] = get_projectdb
     app.config['scheduler_rpc'] = scheduler_rpc
     #app.config['cdn'] = '//cdnjs.cloudflare.com/ajax/libs/'
-    app.run()
+    app.run('0.0.0.0')
 
 if __name__ == '__main__':
     if len(sys.argv) < 2:
